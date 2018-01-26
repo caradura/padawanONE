@@ -6,10 +6,13 @@
     </head>
     
     <style>
+
         body{
          
             background:#444;
+             margin: 0 auto!important;
         }
+
         
         header{
             color: white;
@@ -46,19 +49,33 @@
             
         }
         
-        section{
+        
+        wrapper{
             width: 600px;
             height: 800px;
+            margin: auto!important;
+            background: #ff0000;
+             }
+        
+   
+        
+       section{
+            width: 600px;
+            height: 800px;
+            margin:0 auto!important;
             display: inline-flex;
             background: #66cc99;
              }
         
+     
         aside{
             width: 290px;
             height: 800px;
             display: inline-flex;
             background: #66cccc;
+            clear: both;
             }
+        
         
         footer{
             width: 900px;
@@ -69,10 +86,20 @@
             margin-bottom: auto;
             text-align: center;
         }
+        
+        
+        .contenedor{
+            margin: auto;
+            background: pink;
+            width: 900px;
+            height:auto;
+        }
+        
     </style>
     
     <body>
-        <header>
+        
+         <header>
         <h1>Tecnologías de la información y la comunicación</h1>
         </header>
         
@@ -84,24 +111,23 @@
                 <li>botón 4</li>
             </ul>
         </nav>
-        <center>
-        <section>
-            
-        <article>
-            <h2>Texto</h2>
-                </article>
-            
-        </section>
         
+    <div class="contenedor">
+        <section>
+        123
+        </section>
         <aside>
-            <h1>Más texto</h1>
+        123
         </aside>
-        </center>
+        
+        </div>   
+        
+ 
+        
         <footer>
         <h3>pie de página</h3>
         </footer>
         
     </body>
-    
-    
+ 
 </html>
